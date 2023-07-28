@@ -1,0 +1,47 @@
+/*CSS Rules */
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+
+footer {
+    background-color: azure;
+}
+
+article {
+    flex: 2;
+}
+
+article {flex: 1;
+}
+
+article, aside {
+overflow-y: auto;
+}
+
+.logo {
+    font-size: 2em;
+}
+
+p {
+    text-align: justify;
+}
+
+table {
+    border: 1px;
+}
+
+img {
+    width: 100%;
+}
