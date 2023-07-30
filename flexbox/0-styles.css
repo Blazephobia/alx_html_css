@@ -179,10 +179,10 @@
   
   /* Grid
       ============================= */
-    
-      .row {
-        display: flex; 
-      }
+
+.row {
+    display: flex;
+}
   
   ul.row {
     margin: 0;
@@ -190,14 +190,14 @@
     list-style: none;
   }
   
-  /* .row::after {
+ /* .row::after {
     content: '';
     display: table;
     clear: both;
   } */
   
   [class*='col-'] {
-   /*float: left; */
+    /* float: left; */
     padding: 0.5rem;
   }
   
