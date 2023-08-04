@@ -1,13 +1,14 @@
 /* Header */
 header {
-    background-color: #fff;
-    padding: 20px;
-  }
-  header,
-  .pros {
     background-image: url("images/background.png");
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  header,
+  .pros {
     padding: 20px;
   }
   
@@ -24,21 +25,25 @@ header {
   
   nav a {
     text-decoration: none;
-    color: #333;
+    color: #fff;
     padding: 10px 20px;
   }
   
   nav a:hover {
-    color: #000;
+    color: #fff;
   }
   
   /* Main */
+  . Main {
+    background-color: #a16fe4;
+    padding: 20px;
+  }
   
   .pros {
     background-position: 75% 0;
     background-repeat: no-repeat;
     background-size: 90rem auto;
-    background-color: #f7f7f7;
+    background-color: #fff;
     padding: 20px;
   }
   
@@ -104,7 +109,7 @@ header {
   
   /* Membership */
   .membership {
-    background-color: #f7f7f7;
+    background-color: #0b1227;
     padding: 20px;
   }
   
@@ -153,16 +158,26 @@ header {
   
   /* Footer */
   footer {
-    background-color: #f7f7f7;
+    background-color: #0b1227;
     padding: 20px;
-    text-align: center;
   }
   
   footer img {
+    text-align: left;
     width: 100px;
   }
+  footer a {
+    text-align: right;
+  }
+  footer ul { 
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 10px 30px
+  }
   
-  footer p {
+  footer p {color: #fff;
+    text-align: center;
     margin-top: 0;
   }
   
